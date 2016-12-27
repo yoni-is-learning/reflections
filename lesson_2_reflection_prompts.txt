@@ -8,15 +8,28 @@ to deine the files I want to ad in the next commit. It gives
 flexiblity not to commit all files in the working directory
 
 How can you use the staging area to make sure you have one commit per
-logical change?
+logical change? I can add multiple files to one commit, but not all
+changed files in the working directory. The staging area gives me more
+control of what is included in each commit.
 
 What are some situations when branches would be helpful in keeping
-your history organized? How would branches help?
+your history organized? How would branches help? I can create multiple
+version of the code in parallel to test various features or changes,
+while still keeping one working version. This would be especially
+important if I was working with others so I could create a branch that
+wouldn't mess with the code they are working on
 
-How do the diagrams help you visualize the branch structure?
+How do the diagrams help you visualize the branch structure? Diagrams
+help see where branches are formed off of the master branch, which
+means what changes and developments they include; as opposed to which
+came later in the master branch, and are therefore not included
 
 What is the result of merging two branches together? Why do we
-represent it in the diagram the way we do?
+represent it in the diagram the way we do? Merging two branches
+results in one branch that contains the changes from both branches as
+compared to the commit at the fork.
 
 What are the pros and cons of Git’s automatic merging vs. always doing
-merges manually?
+merges manually? Automatic merging i fast and efficiant. Cons are that
+it may not make the correct choice is not "aidd" by manual
+intevention.
